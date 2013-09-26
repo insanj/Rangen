@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E5D18FB17579848002EC89B /* rangen-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D18FA17579848002EC89B /* rangen-retina.png */; };
+		9E5D18FD1757984F002EC89B /* rangen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D18FC1757984F002EC89B /* rangen@2x.png */; };
+		9E5D18FF1759352C002EC89B /* rangen (big).png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D18FE1759352C002EC89B /* rangen (big).png */; };
+		9E5D19051759372B002EC89B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D19041759372B002EC89B /* Default@2x.png */; };
+		9E6E0E5F1756D0220085AC26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6E0E5E1756D0220085AC26 /* UIKit.framework */; };
+		9E6E0E611756D0220085AC26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6E0E601756D0220085AC26 /* Foundation.framework */; };
+		9E6E0E631756D0220085AC26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6E0E621756D0220085AC26 /* CoreGraphics.framework */; };
+		9E6E0E691756D0220085AC26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E671756D0220085AC26 /* InfoPlist.strings */; };
+		9E6E0E6B1756D0220085AC26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6E0E6A1756D0220085AC26 /* main.m */; };
+		9E6E0E6F1756D0220085AC26 /* RGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6E0E6E1756D0220085AC26 /* RGAppDelegate.m */; };
+		9E6E0E711756D0220085AC26 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E701756D0220085AC26 /* Default.png */; };
+		9E6E0E751756D0220085AC26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E741756D0220085AC26 /* Default-568h@2x.png */; };
+		9E6E0E781756D0220085AC26 /* RGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6E0E771756D0220085AC26 /* RGFirstViewController.m */; };
+		9E6E0E7A1756D0220085AC26 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E791756D0220085AC26 /* first.png */; };
+		9E6E0E7C1756D0220085AC26 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E7B1756D0220085AC26 /* first@2x.png */; };
+		9E6E0E7F1756D0220085AC26 /* RGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6E0E7E1756D0220085AC26 /* RGSecondViewController.m */; };
+		9E6E0E811756D0220085AC26 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E801756D0220085AC26 /* second.png */; };
+		9E6E0E831756D0220085AC26 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E821756D0220085AC26 /* second@2x.png */; };
+		9E6E0E861756D0220085AC26 /* RGFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E841756D0220085AC26 /* RGFirstViewController.xib */; };
+		9E6E0E891756D0220085AC26 /* RGSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E871756D0220085AC26 /* RGSecondViewController.xib */; };
+		9E6E0E911756D0230085AC26 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6E0E901756D0230085AC26 /* SenTestingKit.framework */; };
+		9E6E0E921756D0230085AC26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6E0E5E1756D0220085AC26 /* UIKit.framework */; };
+		9E6E0E931756D0230085AC26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6E0E601756D0220085AC26 /* Foundation.framework */; };
+		9E6E0E9B1756D0230085AC26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E6E0E991756D0230085AC26 /* InfoPlist.strings */; };
+		9E6E0E9E1756D0230085AC26 /* RangenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6E0E9D1756D0230085AC26 /* RangenTests.m */; };
+		9ED449C617593872006D08F1 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED449C317593872006D08F1 /* splash.png */; };
+		9ED449C717593872006D08F1 /* splash@2h.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED449C417593872006D08F1 /* splash@2h.png */; };
+		9ED449C817593872006D08F1 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED449C517593872006D08F1 /* splash@2x.png */; };
+		9ED449CA17593881006D08F1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED449C917593881006D08F1 /* Default.png */; };
+		9ED449CC1759388A006D08F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED449CB1759388A006D08F1 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E6E0E941756D0230085AC26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E6E0E531756D0220085AC26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E6E0E5A1756D0220085AC26;
+			remoteInfo = Rangen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E5D18FA17579848002EC89B /* rangen-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rangen-retina.png"; sourceTree = "<group>"; };
+		9E5D18FC1757984F002EC89B /* rangen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rangen@2x.png"; sourceTree = "<group>"; };
+		9E5D18FE1759352C002EC89B /* rangen (big).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rangen (big).png"; sourceTree = "<group>"; };
+		9E5D19041759372B002EC89B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9E6E0E5B1756D0220085AC26 /* Rangen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rangen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6E0E5E1756D0220085AC26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E6E0E601756D0220085AC26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E6E0E621756D0220085AC26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E6E0E661756D0220085AC26 /* Rangen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rangen-Info.plist"; sourceTree = "<group>"; };
+		9E6E0E681756D0220085AC26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E6E0E6A1756D0220085AC26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E6E0E6C1756D0220085AC26 /* Rangen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rangen-Prefix.pch"; sourceTree = "<group>"; };
+		9E6E0E6D1756D0220085AC26 /* RGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGAppDelegate.h; sourceTree = "<group>"; };
+		9E6E0E6E1756D0220085AC26 /* RGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAppDelegate.m; sourceTree = "<group>"; };
+		9E6E0E701756D0220085AC26 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9E6E0E721756D0220085AC26 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9E6E0E741756D0220085AC26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E6E0E761756D0220085AC26 /* RGFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGFirstViewController.h; sourceTree = "<group>"; };
+		9E6E0E771756D0220085AC26 /* RGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGFirstViewController.m; sourceTree = "<group>"; };
+		9E6E0E791756D0220085AC26 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		9E6E0E7B1756D0220085AC26 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		9E6E0E7D1756D0220085AC26 /* RGSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGSecondViewController.h; sourceTree = "<group>"; };
+		9E6E0E7E1756D0220085AC26 /* RGSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGSecondViewController.m; sourceTree = "<group>"; };
+		9E6E0E801756D0220085AC26 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9E6E0E821756D0220085AC26 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9E6E0E851756D0220085AC26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RGFirstViewController.xib; sourceTree = "<group>"; };
+		9E6E0E881756D0220085AC26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RGSecondViewController.xib; sourceTree = "<group>"; };
+		9E6E0E8F1756D0230085AC26 /* RangenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6E0E901756D0230085AC26 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9E6E0E981756D0230085AC26 /* RangenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RangenTests-Info.plist"; sourceTree = "<group>"; };
+		9E6E0E9A1756D0230085AC26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E6E0E9C1756D0230085AC26 /* RangenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangenTests.h; sourceTree = "<group>"; };
+		9E6E0E9D1756D0230085AC26 /* RangenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RangenTests.m; sourceTree = "<group>"; };
+		9ED449C317593872006D08F1 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		9ED449C417593872006D08F1 /* splash@2h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2h.png"; sourceTree = "<group>"; };
+		9ED449C517593872006D08F1 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		9ED449C917593881006D08F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9ED449CB1759388A006D08F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E6E0E581756D0220085AC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6E0E5F1756D0220085AC26 /* UIKit.framework in Frameworks */,
+				9E6E0E611756D0220085AC26 /* Foundation.framework in Frameworks */,
+				9E6E0E631756D0220085AC26 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6E0E8B1756D0230085AC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6E0E911756D0230085AC26 /* SenTestingKit.framework in Frameworks */,
+				9E6E0E921756D0230085AC26 /* UIKit.framework in Frameworks */,
+				9E6E0E931756D0230085AC26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E6E0E521756D0220085AC26 = {
+			isa = PBXGroup;
+			children = (
+				9ED449CB1759388A006D08F1 /* Default-568h@2x.png */,
+				9ED449C917593881006D08F1 /* Default.png */,
+				9E5D19041759372B002EC89B /* Default@2x.png */,
+				9E5D18FC1757984F002EC89B /* rangen@2x.png */,
+				9E6E0E641756D0220085AC26 /* Rangen */,
+				9E6E0E961756D0230085AC26 /* RangenTests */,
+				9E6E0E5D1756D0220085AC26 /* Frameworks */,
+				9E6E0E5C1756D0220085AC26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E6E0E5C1756D0220085AC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E6E0E5B1756D0220085AC26 /* Rangen.app */,
+				9E6E0E8F1756D0230085AC26 /* RangenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E6E0E5D1756D0220085AC26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E6E0E5E1756D0220085AC26 /* UIKit.framework */,
+				9E6E0E601756D0220085AC26 /* Foundation.framework */,
+				9E6E0E621756D0220085AC26 /* CoreGraphics.framework */,
+				9E6E0E901756D0230085AC26 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E6E0E641756D0220085AC26 /* Rangen */ = {
+			isa = PBXGroup;
+			children = (
+				9E6E0EA71756D02D0085AC26 /* Images */,
+				9E6E0E6D1756D0220085AC26 /* RGAppDelegate.h */,
+				9E6E0E6E1756D0220085AC26 /* RGAppDelegate.m */,
+				9E6E0E761756D0220085AC26 /* RGFirstViewController.h */,
+				9E6E0E771756D0220085AC26 /* RGFirstViewController.m */,
+				9E6E0E7D1756D0220085AC26 /* RGSecondViewController.h */,
+				9E6E0E7E1756D0220085AC26 /* RGSecondViewController.m */,
+				9E6E0E841756D0220085AC26 /* RGFirstViewController.xib */,
+				9E6E0E871756D0220085AC26 /* RGSecondViewController.xib */,
+				9E6E0E651756D0220085AC26 /* Supporting Files */,
+			);
+			path = Rangen;
+			sourceTree = "<group>";
+		};
+		9E6E0E651756D0220085AC26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E6E0E661756D0220085AC26 /* Rangen-Info.plist */,
+				9E6E0E671756D0220085AC26 /* InfoPlist.strings */,
+				9E6E0E6A1756D0220085AC26 /* main.m */,
+				9E6E0E6C1756D0220085AC26 /* Rangen-Prefix.pch */,
+				9E6E0E701756D0220085AC26 /* Default.png */,
+				9E6E0E721756D0220085AC26 /* Default@2x.png */,
+				9E6E0E741756D0220085AC26 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E6E0E961756D0230085AC26 /* RangenTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E6E0E9C1756D0230085AC26 /* RangenTests.h */,
+				9E6E0E9D1756D0230085AC26 /* RangenTests.m */,
+				9E6E0E971756D0230085AC26 /* Supporting Files */,
+			);
+			path = RangenTests;
+			sourceTree = "<group>";
+		};
+		9E6E0E971756D0230085AC26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E6E0E981756D0230085AC26 /* RangenTests-Info.plist */,
+				9E6E0E991756D0230085AC26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E6E0EA71756D02D0085AC26 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9ED449CE175938C5006D08F1 /* interfaces */,
+				9ED449CD175938BB006D08F1 /* icons */,
+				9ED449C217593860006D08F1 /* splashes */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9ED449C217593860006D08F1 /* splashes */ = {
+			isa = PBXGroup;
+			children = (
+				9ED449C317593872006D08F1 /* splash.png */,
+				9ED449C417593872006D08F1 /* splash@2h.png */,
+				9ED449C517593872006D08F1 /* splash@2x.png */,
+			);
+			name = splashes;
+			sourceTree = "<group>";
+		};
+		9ED449CD175938BB006D08F1 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D18FE1759352C002EC89B /* rangen (big).png */,
+				9E5D18FA17579848002EC89B /* rangen-retina.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		9ED449CE175938C5006D08F1 /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				9E6E0E791756D0220085AC26 /* first.png */,
+				9E6E0E7B1756D0220085AC26 /* first@2x.png */,
+				9E6E0E801756D0220085AC26 /* second.png */,
+				9E6E0E821756D0220085AC26 /* second@2x.png */,
+			);
+			name = interfaces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E6E0E5A1756D0220085AC26 /* Rangen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6E0EA11756D0230085AC26 /* Build configuration list for PBXNativeTarget "Rangen" */;
+			buildPhases = (
+				9E6E0E571756D0220085AC26 /* Sources */,
+				9E6E0E581756D0220085AC26 /* Frameworks */,
+				9E6E0E591756D0220085AC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rangen;
+			productName = Rangen;
+			productReference = 9E6E0E5B1756D0220085AC26 /* Rangen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E6E0E8E1756D0230085AC26 /* RangenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6E0EA41756D0230085AC26 /* Build configuration list for PBXNativeTarget "RangenTests" */;
+			buildPhases = (
+				9E6E0E8A1756D0230085AC26 /* Sources */,
+				9E6E0E8B1756D0230085AC26 /* Frameworks */,
+				9E6E0E8C1756D0230085AC26 /* Resources */,
+				9E6E0E8D1756D0230085AC26 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E6E0E951756D0230085AC26 /* PBXTargetDependency */,
+			);
+			name = RangenTests;
+			productName = RangenTests;
+			productReference = 9E6E0E8F1756D0230085AC26 /* RangenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E6E0E531756D0220085AC26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = insanj;
+			};
+			buildConfigurationList = 9E6E0E561756D0220085AC26 /* Build configuration list for PBXProject "Rangen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E6E0E521756D0220085AC26;
+			productRefGroup = 9E6E0E5C1756D0220085AC26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E6E0E5A1756D0220085AC26 /* Rangen */,
+				9E6E0E8E1756D0230085AC26 /* RangenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E6E0E591756D0220085AC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6E0E691756D0220085AC26 /* InfoPlist.strings in Resources */,
+				9E6E0E711756D0220085AC26 /* Default.png in Resources */,
+				9E6E0E751756D0220085AC26 /* Default-568h@2x.png in Resources */,
+				9E6E0E7A1756D0220085AC26 /* first.png in Resources */,
+				9E6E0E7C1756D0220085AC26 /* first@2x.png in Resources */,
+				9E6E0E811756D0220085AC26 /* second.png in Resources */,
+				9E6E0E831756D0220085AC26 /* second@2x.png in Resources */,
+				9E6E0E861756D0220085AC26 /* RGFirstViewController.xib in Resources */,
+				9E6E0E891756D0220085AC26 /* RGSecondViewController.xib in Resources */,
+				9E5D18FB17579848002EC89B /* rangen-retina.png in Resources */,
+				9E5D18FD1757984F002EC89B /* rangen@2x.png in Resources */,
+				9E5D18FF1759352C002EC89B /* rangen (big).png in Resources */,
+				9E5D19051759372B002EC89B /* Default@2x.png in Resources */,
+				9ED449C617593872006D08F1 /* splash.png in Resources */,
+				9ED449C717593872006D08F1 /* splash@2h.png in Resources */,
+				9ED449C817593872006D08F1 /* splash@2x.png in Resources */,
+				9ED449CA17593881006D08F1 /* Default.png in Resources */,
+				9ED449CC1759388A006D08F1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6E0E8C1756D0230085AC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6E0E9B1756D0230085AC26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E6E0E8D1756D0230085AC26 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E6E0E571756D0220085AC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6E0E6B1756D0220085AC26 /* main.m in Sources */,
+				9E6E0E6F1756D0220085AC26 /* RGAppDelegate.m in Sources */,
+				9E6E0E781756D0220085AC26 /* RGFirstViewController.m in Sources */,
+				9E6E0E7F1756D0220085AC26 /* RGSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6E0E8A1756D0230085AC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6E0E9E1756D0230085AC26 /* RangenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E6E0E951756D0230085AC26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E6E0E5A1756D0220085AC26 /* Rangen */;
+			targetProxy = 9E6E0E941756D0230085AC26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E6E0E671756D0220085AC26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E6E0E681756D0220085AC26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E6E0E841756D0220085AC26 /* RGFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E6E0E851756D0220085AC26 /* en */,
+			);
+			name = RGFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		9E6E0E871756D0220085AC26 /* RGSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E6E0E881756D0220085AC26 /* en */,
+			);
+			name = RGSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		9E6E0E991756D0230085AC26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E6E0E9A1756D0230085AC26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E6E0E9F1756D0230085AC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E6E0EA01756D0230085AC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E6E0EA21756D0230085AC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rangen/Rangen-Prefix.pch";
+				INFOPLIST_FILE = "Rangen/Rangen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E6E0EA31756D0230085AC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rangen/Rangen-Prefix.pch";
+				INFOPLIST_FILE = "Rangen/Rangen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E6E0EA51756D0230085AC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rangen.app/Rangen";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rangen/Rangen-Prefix.pch";
+				INFOPLIST_FILE = "RangenTests/RangenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9E6E0EA61756D0230085AC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rangen.app/Rangen";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rangen/Rangen-Prefix.pch";
+				INFOPLIST_FILE = "RangenTests/RangenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E6E0E561756D0220085AC26 /* Build configuration list for PBXProject "Rangen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6E0E9F1756D0230085AC26 /* Debug */,
+				9E6E0EA01756D0230085AC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6E0EA11756D0230085AC26 /* Build configuration list for PBXNativeTarget "Rangen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6E0EA21756D0230085AC26 /* Debug */,
+				9E6E0EA31756D0230085AC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6E0EA41756D0230085AC26 /* Build configuration list for PBXNativeTarget "RangenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6E0EA51756D0230085AC26 /* Debug */,
+				9E6E0EA61756D0230085AC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E6E0E531756D0220085AC26 /* Project object */;
+}
